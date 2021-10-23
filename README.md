@@ -1,6 +1,7 @@
 # 「CodeBook」:[https://portfolio.codebook.work/](https://portfolio.codebook.work/)  
 # ポートフォリオサイト概要
 プログラミング書籍販売サイト  
+![codebook (1)]https://user-images.githubusercontent.com/59566529/138570228-0af6df43-fdad-477f-b244-135f0c91f576.png
 
 ## 使用した技術一覧
 * フロントエンド：angular, JavaScript
