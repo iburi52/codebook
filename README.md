@@ -35,6 +35,7 @@ localサイトにアクセス:[https://localhost:4200/](https://localhost:4200/)
 テストユーザ：  
 * emaill: test@test.com
 * password: Password1¥
+* カード番号: 4242424242424242
     
 リソース削除:
 ```bash
