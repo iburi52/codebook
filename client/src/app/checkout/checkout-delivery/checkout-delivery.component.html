@@ -1,0 +1,28 @@
+<div class="mt-4" [formGroup]="checkoutForm">
+    <h4 class="mb-3">配送オプション選択</h4>
+    <div class="row" formGroupName="deliveryForm">
+        <div class="col-6 form-group" *ngFor="let method of deliveryMethods">
+            <input type="radio"
+                id={{method.id}}
+                (click)="setShippingPrice(method)"
+                value={{method.id}}
+                formControlName="deliveryMethod"
+                class="custom-control-input"
+            >
+            <label for="{{method.id}}" class="custom-control-label">
+                <strong>{{method.shortName}} - {{method.price | currency:'JPY':'' }}円</strong>
+                <br />
+                <span class="label-description">{{method.description}}</span>
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
+    <button class="btn btn-outline-primary" cdkStepperPrevious>
+        <i class="fa fa-angle-left"></i> お届け先設定に戻る
+    </button>
+    <button [disabled]="checkoutForm.get('deliveryForm').invalid" class="btn btn-primary" cdkStepperNext>
+        確認画面に進む <i class="fa fa-angle-right"></i>
+    </button>
+</div>

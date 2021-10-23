@@ -1,0 +1,242 @@
+[
+  {
+    "Name": "はじめてのC言語",
+    "Description": "初級レベルのC言語が学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/cBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "実戦で役立つC言語",
+    "Description": "中級レベルのC言語が学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/cIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "パーフェクトマスターC言語",
+    "Description": "上級レベルのC言語が学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/cAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "基礎から学ぶPython",
+    "Description": "初級レベルのPythonが学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/pythonBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Python現場の新標準ガイド",
+    "Description": "中級レベルのPythonが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/pythonIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "設計完全ガイドPython",
+    "Description": "上級レベルのPythonが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/pythonAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "基本のJava",
+    "Description": "初級レベルのJavaが学べる教材です。基本のJava",
+    "Price": 1000,
+    "PictureUrl": "images/products/javaBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "独習Java",
+    "Description": "中級レベルのJavaが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/javaIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "苦しんで覚えるJava",
+    "Description": "上級レベルのJavaが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/javaAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "基本のC++",
+    "Description": "初級レベルのC++が学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/c-plusplusBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "独習C++",
+    "Description": "中級レベルのC++が学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/c-plusplusIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "パーフェクトマスターC++",
+    "Description": "上級レベルのC++が学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/c-plusplusAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "はじめてのC#",
+    "Description": "初級レベルのC#が学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/c-sharpBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "独習C#",
+    "Description": "中級レベルのC#が学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/c-sharpIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "設計完全ガイドC#",
+    "Description": "上級レベルのC#が学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/c-sharpAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "基礎から学ぶPHP",
+    "Description": "初級レベルのPHPが学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/phpBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "現場の新標準ガイドPHP",
+    "Description": "中級レベルのPHPが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/phpIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "苦しんで覚えるPHP",
+    "Description": "上級レベルのPHPが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/phpAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "基本のRuby",
+    "Description": "初級レベルのRubyが学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/rubyBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "実戦で役立つRuby",
+    "Description": "中級レベルのRubyが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/rubyIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "設計完全ガイドRuby",
+    "Description": "上級レベルのRubyが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/rubyAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "基礎から学ぶR",
+    "Description": "初級レベルのRが学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/r-langBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "なるほどなっとくR",
+    "Description": "中級レベルのRが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/r-langIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "本当は怖いR",
+    "Description": "上級レベルのRが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/r-langAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "基礎から学ぶSwift",
+    "Description": "初級レベルのSwiftが学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/swiftBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "実戦で役立つSwift",
+    "Description": "中級レベルのSwiftが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/swiftIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "本当は怖いSwift",
+    "Description": "上級レベルのSwiftが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/swiftAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "はじめてのGo",
+    "Description": "初級レベルのGoが学べる教材です。",
+    "Price": 1000,
+    "PictureUrl": "images/products/gopherBeginner.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "なるほどなっとくGo",
+    "Description": "中級レベルのGoが学べる教材です。",
+    "Price": 1500,
+    "PictureUrl": "images/products/gopherIntermediate.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "設計完全ガイドGo",
+    "Description": "上級レベルのGoが学べる教材です。",
+    "Price": 2000,
+    "PictureUrl": "images/products/gopherAdvanced.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 10
+  }
+]

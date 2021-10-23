@@ -1,0 +1,42 @@
+<div class="mt-4" [formGroup]="checkoutForm">
+    <div class="d-flex justify-content-between align-items-center">
+        <h4>お届け先住所</h4>
+        <button 
+            (click)="saveUserAddress()" 
+            class="btn btn-outline-success mb-3"
+            [disabled]="!checkoutForm.get('addressForm').valid || !checkoutForm.get('addressForm').dirty"
+        >
+            既定の住所に設定する
+        </button>
+    </div>
+    <div class="row" formGroupName="addressForm">
+        <div class="form-group col-6">
+            <app-text-input [label]="'姓'" formControlName="firstName"></app-text-input>
+        </div>
+        <div class="form-group col-6">
+            <app-text-input [label]="'名'" formControlName="lastName"></app-text-input>
+        </div>
+        <div class="form-group col-6">
+            <app-text-input [label]="'郵便番号'" formControlName="zipCode"></app-text-input>
+        </div>
+        <div class="form-group col-6">
+            <app-text-input [label]="'都道府県'" formControlName="state"></app-text-input>
+        </div>
+        <div class="form-group col-6">
+            <app-text-input [label]="'市町村'" formControlName="city"></app-text-input>
+        </div>       
+        <div class="form-group col-6">
+            <app-text-input [label]="'番地'" formControlName="street"></app-text-input>
+        </div>
+    </div>
+</div>
+
+<div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
+    <button class="btn btn-outline-primary" routerLink="/basket">
+        <i class="fa fa-angle-left"></i> カートに戻る
+    </button>
+    <button [disabled]="checkoutForm.get('addressForm').invalid" class="btn btn-primary" cdkStepperNext>
+        配送オプション選択に進む <i class="fa fa-angle-right"></i>
+    </button>
+</div>
+

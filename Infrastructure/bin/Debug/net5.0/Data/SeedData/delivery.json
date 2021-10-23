@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "ShortName": "当日お急ぎ便",
+    "Description": "最短即日配送です",
+    "DeliveryTime": "1-2 日間",
+    "Price": 1000
+  },
+  {
+    "Id": 2,
+    "ShortName": "お急ぎ便",
+    "Description": "5日以内に配送します",
+    "DeliveryTime": "2-5 日間",
+    "Price": 500
+  },
+  {
+    "Id": 3,
+    "ShortName": "通常配送",
+    "Description": "通常配送は送料が割安です",
+    "DeliveryTime": "5-6 日間",
+    "Price": 300
+  },
+  {
+    "Id": 4,
+    "ShortName": "通常配送",
+    "Description": "通常配送は送料無料です",
+    "DeliveryTime": "1 週間",
+    "Price": 0
+  }
+]

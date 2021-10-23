@@ -1,0 +1,20 @@
+<div class="bg-light px-4 text-uppercase font-weight-bold" style="padding: 1.20em;">
+    注文内容
+</div>
+<div class="p-4">
+    <p class="font-italic mb-4">選択した配送オプションの送料が加算されます</p>
+    <ul class="list-unstyled mb-4">
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">小計</strong>
+            <strong>{{subtotal | currency:'JPY':'' }}円</strong>
+        </li>
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">配送オプション</strong>
+            <strong>{{shippingPrice | currency:'JPY':'' }}円</strong>
+        </li>
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">合計</strong>
+            <strong>{{total | currency:'JPY':'' }}円</strong>
+        </li>
+    </ul>
+</div>
